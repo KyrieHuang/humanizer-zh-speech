@@ -1,0 +1,347 @@
+{
+  "overall": {
+    "n_files": 25,
+    "total_chars": 32709,
+    "n_segments": 661,
+    "mean_segment_len": 48.9,
+    "median_segment_len": 42,
+    "segment_len_dist": {
+      "≤10": 0.044,
+      "11-20": 0.092,
+      "21-30": 0.177,
+      "31-45": 0.236,
+      "46+": 0.451
+    },
+    "mean_cue_line_len": 144.6,
+    "end_punct_ratio": 0.912,
+    "comma_per_line": 7.85,
+    "particles_per_1k": 0.306,
+    "particles_top": {
+      "厚": 4,
+      "吧": 2,
+      "喔": 1,
+      "耶": 1,
+      "呢": 1,
+      "啊": 1,
+      "啦": 0,
+      "噢": 0
+    },
+    "colloq_conn_per_1k": 2.018,
+    "colloq_conn_top": {
+      "其實": 16,
+      "所以": 11,
+      "但是": 10,
+      "不過": 8,
+      "結果": 7,
+      "而且": 6,
+      "可是": 4,
+      "就是說": 2
+    },
+    "formal_conn_per_1k": 1.529,
+    "formal_conn_top": {
+      "因此": 20,
+      "然而": 16,
+      "此外": 5,
+      "進而": 3,
+      "並且": 2,
+      "乃至": 2
+    },
+    "pronoun_per_1k": 12.902
+  },
+  "by_domain": {
+    "01_knowledge": {
+      "n_files": 5,
+      "total_chars": 7170,
+      "n_segments": 162,
+      "mean_segment_len": 44.1,
+      "median_segment_len": 40,
+      "segment_len_dist": {
+        "≤10": 0.093,
+        "11-20": 0.099,
+        "21-30": 0.185,
+        "31-45": 0.216,
+        "46+": 0.407
+      },
+      "mean_cue_line_len": 117.6,
+      "end_punct_ratio": 0.806,
+      "comma_per_line": 4.79,
+      "particles_per_1k": 0.697,
+      "particles_top": {
+        "喔": 1,
+        "耶": 1,
+        "厚": 1,
+        "呢": 1,
+        "吧": 1,
+        "啦": 0,
+        "噢": 0,
+        "欸": 0
+      },
+      "colloq_conn_per_1k": 3.068,
+      "colloq_conn_top": {
+        "結果": 5,
+        "不過": 4,
+        "但是": 4,
+        "所以": 3,
+        "而且": 2,
+        "其實": 2,
+        "你看": 2,
+        "然後": 0
+      },
+      "formal_conn_per_1k": 1.116,
+      "formal_conn_top": {
+        "因此": 3,
+        "然而": 2,
+        "此外": 2,
+        "進而": 1,
+        "並且": 0,
+        "鑒於": 0
+      },
+      "pronoun_per_1k": 14.226
+    },
+    "02_finance": {
+      "n_files": 4,
+      "total_chars": 4419,
+      "n_segments": 92,
+      "mean_segment_len": 47.6,
+      "median_segment_len": 42,
+      "segment_len_dist": {
+        "≤10": 0.033,
+        "11-20": 0.109,
+        "21-30": 0.109,
+        "31-45": 0.326,
+        "46+": 0.424
+      },
+      "mean_cue_line_len": 131.5,
+      "end_punct_ratio": 0.853,
+      "comma_per_line": 6.59,
+      "particles_per_1k": 0.0,
+      "particles_top": {
+        "啦": 0,
+        "喔": 0,
+        "噢": 0,
+        "耶": 0,
+        "欸": 0,
+        "嘛": 0,
+        "齁": 0,
+        "厚": 0
+      },
+      "colloq_conn_per_1k": 0.453,
+      "colloq_conn_top": {
+        "但是": 1,
+        "其實": 1,
+        "然後": 0,
+        "所以": 0,
+        "可是": 0,
+        "不過": 0,
+        "反正": 0,
+        "結果": 0
+      },
+      "formal_conn_per_1k": 2.263,
+      "formal_conn_top": {
+        "然而": 5,
+        "因此": 1,
+        "此外": 1,
+        "並且": 1,
+        "乃至": 1,
+        "為此": 1
+      },
+      "pronoun_per_1k": 7.468
+    },
+    "03_teaching": {
+      "n_files": 4,
+      "total_chars": 3477,
+      "n_segments": 73,
+      "mean_segment_len": 47.0,
+      "median_segment_len": 43,
+      "segment_len_dist": {
+        "≤10": 0.0,
+        "11-20": 0.068,
+        "21-30": 0.151,
+        "31-45": 0.315,
+        "46+": 0.466
+      },
+      "mean_cue_line_len": 145.9,
+      "end_punct_ratio": 1.0,
+      "comma_per_line": 6.79,
+      "particles_per_1k": 0.0,
+      "particles_top": {
+        "啦": 0,
+        "喔": 0,
+        "噢": 0,
+        "耶": 0,
+        "欸": 0,
+        "嘛": 0,
+        "齁": 0,
+        "厚": 0
+      },
+      "colloq_conn_per_1k": 1.438,
+      "colloq_conn_top": {
+        "所以": 2,
+        "不過": 1,
+        "但是": 1,
+        "就是說": 1,
+        "然後": 0,
+        "可是": 0,
+        "反正": 0,
+        "結果": 0
+      },
+      "formal_conn_per_1k": 2.013,
+      "formal_conn_top": {
+        "因此": 4,
+        "然而": 1,
+        "並且": 1,
+        "值得注意": 1,
+        "此外": 0,
+        "鑒於": 0
+      },
+      "pronoun_per_1k": 0.288
+    },
+    "04_commentary": {
+      "n_files": 4,
+      "total_chars": 6012,
+      "n_segments": 136,
+      "mean_segment_len": 43.2,
+      "median_segment_len": 38,
+      "segment_len_dist": {
+        "≤10": 0.029,
+        "11-20": 0.103,
+        "21-30": 0.257,
+        "31-45": 0.228,
+        "46+": 0.382
+      },
+      "mean_cue_line_len": 222.7,
+      "end_punct_ratio": 0.963,
+      "comma_per_line": 14.67,
+      "particles_per_1k": 0.166,
+      "particles_top": {
+        "厚": 1,
+        "啦": 0,
+        "喔": 0,
+        "噢": 0,
+        "耶": 0,
+        "欸": 0,
+        "嘛": 0,
+        "齁": 0
+      },
+      "colloq_conn_per_1k": 1.996,
+      "colloq_conn_top": {
+        "其實": 6,
+        "所以": 2,
+        "可是": 1,
+        "結果": 1,
+        "而且": 1,
+        "但是": 1,
+        "然後": 0,
+        "不過": 0
+      },
+      "formal_conn_per_1k": 2.495,
+      "formal_conn_top": {
+        "然而": 7,
+        "因此": 4,
+        "此外": 2,
+        "進而": 1,
+        "乃至": 1,
+        "並且": 0
+      },
+      "pronoun_per_1k": 6.154
+    },
+    "05_film": {
+      "n_files": 4,
+      "total_chars": 7280,
+      "n_segments": 98,
+      "mean_segment_len": 73.9,
+      "median_segment_len": 72,
+      "segment_len_dist": {
+        "≤10": 0.02,
+        "11-20": 0.051,
+        "21-30": 0.092,
+        "31-45": 0.112,
+        "46+": 0.724
+      },
+      "mean_cue_line_len": 156.1,
+      "end_punct_ratio": 0.979,
+      "comma_per_line": 9.36,
+      "particles_per_1k": 0.137,
+      "particles_top": {
+        "厚": 1,
+        "啦": 0,
+        "喔": 0,
+        "噢": 0,
+        "耶": 0,
+        "欸": 0,
+        "嘛": 0,
+        "齁": 0
+      },
+      "colloq_conn_per_1k": 1.099,
+      "colloq_conn_top": {
+        "其實": 3,
+        "不過": 2,
+        "所以": 1,
+        "而且": 1,
+        "就是說": 1,
+        "然後": 0,
+        "可是": 0,
+        "反正": 0
+      },
+      "formal_conn_per_1k": 0.962,
+      "formal_conn_top": {
+        "因此": 5,
+        "然而": 1,
+        "進而": 1,
+        "此外": 0,
+        "並且": 0,
+        "鑒於": 0
+      },
+      "pronoun_per_1k": 11.401
+    },
+    "06_lifestyle": {
+      "n_files": 4,
+      "total_chars": 4351,
+      "n_segments": 100,
+      "mean_segment_len": 42.5,
+      "median_segment_len": 37,
+      "segment_len_dist": {
+        "≤10": 0.05,
+        "11-20": 0.11,
+        "21-30": 0.22,
+        "31-45": 0.26,
+        "46+": 0.36
+      },
+      "mean_cue_line_len": 128.0,
+      "end_punct_ratio": 0.971,
+      "comma_per_line": 7.94,
+      "particles_per_1k": 0.689,
+      "particles_top": {
+        "厚": 1,
+        "吧": 1,
+        "啊": 1,
+        "啦": 0,
+        "喔": 0,
+        "噢": 0,
+        "耶": 0,
+        "欸": 0
+      },
+      "colloq_conn_per_1k": 3.907,
+      "colloq_conn_top": {
+        "其實": 4,
+        "所以": 3,
+        "可是": 3,
+        "但是": 3,
+        "而且": 2,
+        "不過": 1,
+        "結果": 1,
+        "然後": 0
+      },
+      "formal_conn_per_1k": 0.689,
+      "formal_conn_top": {
+        "因此": 3,
+        "然而": 0,
+        "此外": 0,
+        "並且": 0,
+        "鑒於": 0,
+        "從而": 0
+      },
+      "pronoun_per_1k": 38.152
+    }
+  }
+}

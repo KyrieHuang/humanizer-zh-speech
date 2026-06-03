@@ -1,0 +1,25 @@
+# 私有語料庫（YouTube 字幕有版權，一律不進公開 repo）
+_corpus/
+# 書面對照語料（文章有版權，只用來算統計，不公開）
+_corpus_written/
+
+# 建置期工具（抓取腳本等，不屬於 skill 本體）
+_tools/
+
+# 原始字幕檔（清洗前的中介檔，不公開）
+*.vtt
+*.srt
+*.ttml
+*.srv*
+*.json3
+
+# 系統 / Python
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# 測試輸出（含真實語料短摘，不公開）
+tests/outputs/
