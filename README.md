@@ -1,4 +1,4 @@
-# speech-humanizer-zh
+# humanizer-zh-speech
 
 把書面腔／AI 腔的**繁體中文口播稿**，改寫成念出口像真人在講的自然口語——同時清掉中文 AI 寫作痕跡。
 
@@ -6,7 +6,7 @@
 
 這是 [`humanizer-zh`](https://github.com/blader/humanizer) 的姊妹 skill：
 - `humanizer-zh` 處理「書面文字像不像 AI 寫的」（給人讀）。
-- `speech-humanizer-zh` 處理「這段話念出來像不像真人在講」（給人聽）。
+- `humanizer-zh-speech` 處理「這段話念出來像不像真人在講」（給人聽）。
 
 ## 為什麼需要它
 
@@ -36,10 +36,10 @@
 
 ```bash
 # 透過 skills CLI（發佈後）
-npx skills add kyrie-snow/speech-humanizer-zh
+npx skills add kyrie-snow/humanizer-zh-speech
 
 # 或手動：把整個資料夾放到 ~/.claude/skills/
-cp -r speech-humanizer-zh ~/.claude/skills/
+cp -r humanizer-zh-speech ~/.claude/skills/
 ```
 
 ## 用法

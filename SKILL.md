@@ -1,5 +1,5 @@
 ---
-name: speech-humanizer-zh
+name: humanizer-zh-speech
 version: 0.1.0
 description: >-
   把書面腔／AI 腔的繁體中文「口播稿」改寫成念出口像真人在講的自然口語，同時清掉 AI 寫作痕跡。
@@ -18,7 +18,7 @@ allowed-tools:
   - AskUserQuestion
 ---
 
-# speech-humanizer-zh — 中文口播口語化
+# humanizer-zh-speech — 中文口播口語化
 
 把「寫出來給人讀」的中文，改成「念出來給人聽」的中文。輸入是意思對、但讀起來像文章／像 AI 的稿；輸出是同義、可直接對著鏡頭或麥克風念、聽起來像真人在講、且不長 AI 味的口播稿。
 
