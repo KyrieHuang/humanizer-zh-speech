@@ -84,8 +84,17 @@
 
 ## 安裝
 
+**一行安裝（推薦）**——透過 [skills CLI](https://skills.sh)，自動偵測你的 agent（Claude Code／OpenCode／Cursor…）：
+
 ```bash
-# 手動安裝：把整個資料夾放到你的 skills 目錄
+npx skills add KyrieHuang/humanizer-zh-speech
+```
+
+裝到全域（所有專案共用）加 `-g`；指定 agent 加 `-a claude-code`。
+
+或手動把資料夾放進 skills 目錄：
+
+```bash
 git clone https://github.com/KyrieHuang/humanizer-zh-speech.git
 cp -r humanizer-zh-speech ~/.claude/skills/
 ```
