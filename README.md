@@ -1,3 +1,9 @@
+---
+tags:
+  - proj/humanizer
+  - 層/總則
+---
+
 # humanizer-zh-speech
 
 把書面腔／AI 腔的**繁體中文口播稿**，改寫成念出口像真人在講的自然口語——同時清掉中文 AI 寫作痕跡。

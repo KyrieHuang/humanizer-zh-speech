@@ -1,3 +1,9 @@
+---
+tags:
+  - proj/humanizer
+  - 層/測試
+---
+
 # 測試與驗收（行為驗證 / G4）
 
 本 skill 是 prompt-based，驗證＝把 SKILL.md 規則套到測試輸入、檢查輸出行為。
